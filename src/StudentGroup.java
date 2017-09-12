@@ -33,24 +33,24 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		try {
+		/*try {
 			if(students==null)
 				throw new IllegalArgumentException("students unavailable");
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 	@Override
 	public Student getStudent(int index) {
 		
-		try{
+		/*try{
 			if(index<0||index>students.length)
 				throw new IllegalArgumentException("Invalid Index");
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}
+		}*/
 		// Add your implementation here
 		return null;
 	}
