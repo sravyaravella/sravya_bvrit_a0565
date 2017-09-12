@@ -41,7 +41,6 @@ public class StudentGroup implements StudentArrayOperation {
 			System.out.println(e.getMessage());
 		}// Add your implementation here
 	}
-
 	@Override
 	public Student getStudent(int index) {
 		
