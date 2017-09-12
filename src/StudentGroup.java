@@ -33,24 +33,24 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		try {
+		/*try {
 			if(students==null)
 				throw new IllegalArgumentException("students unavailable");
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 	@Override
 	public Student getStudent(int index) {
 		
-		try{
+		/*try{
 			if(index<0||index>students.length)
 				throw new IllegalArgumentException("Invalid Index");
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}
+		}*/
 		// Add your implementation here
 		return null;
 	}
@@ -58,7 +58,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		students[index]=student;
-		try {
+		/*try {
 			if(students==null)
 				throw new IllegalArgumentException("Invalid student");
 			}	
@@ -71,109 +71,109 @@ public class StudentGroup implements StudentArrayOperation {
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}
+		}*/
 		// Add your implementation here
 	}
 
 	@Override
 	public void addFirst(Student student) {
-		students[0]=student;
+		/*students[0]=student;
 		try {
 			if(students==null)
 				throw new IllegalArgumentException("Invalid student");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
 	public void addLast(Student student) {
-		try {
+		/*try {
 			if(students==null)
 				throw new IllegalArgumentException("Invalid student");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
 	public void add(Student student, int index) {
-		students[index]=student;
+		/*students[index]=student;
 		try {
 			if(students==null)
 				throw new IllegalArgumentException("Invalid student");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}
+		}*/
 	}
 
 	@Override
 	public void remove(int index) {
-		try{
+		/*try{
 			if(index<0||index>students.length)
 				throw new IllegalArgumentException("Invalid Index");
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
 	public void remove(Student student) {
-		try {
+		/*try {
 			if(students==null)
 				throw new IllegalArgumentException("Invalid student");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
 	public void removeFromIndex(int index) {
-		try{
+		/*try{
 			if(index<0||index>students.length)
 				throw new IllegalArgumentException("Invalid Index");
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
 	public void removeFromElement(Student student) {
-		try {
+		/*try {
 			if(students==null)
 				throw new IllegalArgumentException("Invalid student");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
 	public void removeToIndex(int index) {
-		try{
+		/*try{
 			if(index<0||index>students.length)
 				throw new IllegalArgumentException("Invalid Index");
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
 	public void removeToElement(Student student) {
-		try {
+		/*try {
 			if(students==null)
 				throw new IllegalArgumentException("Invalid student");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}// Add your implementation here
+		}*/// Add your implementation here
 	}
 
 	@Override
@@ -183,49 +183,49 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getByBirthDate(Date date) {
-		try {
+		/*try {
 			if(date==null)
 				throw new IllegalArgumentException("Invalid date");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}// Add your implementation here
+		}*/// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate) {
-		try {
+		/*try {
 			if(firstDate==null||lastDate==null)
 				throw new IllegalArgumentException("Invalid date");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}// Add your implementation here
+		}*/// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public Student[] getNearBirthDate(Date date, int days) {
-		try {
+		/*try {
 			if(date==null)
 				throw new IllegalArgumentException("Invalid date");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}// Add your implementation here
+		}*/// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent) {
-		try {
+		/*try {
 			if(indexOfStudent==0)
 				throw new IllegalArgumentException("Invalid index");
 			}	
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());// Add your implementation here
-		}// Add your implementation here
+		}*/// Add your implementation here
 		return 0;
 	}
 
