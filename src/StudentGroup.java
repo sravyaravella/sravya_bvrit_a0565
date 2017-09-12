@@ -24,7 +24,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-		if(students.length>0)
+		if(students.length!=0)
 			return students;
 		else
 		 // Add your implementation here
